@@ -1,0 +1,40 @@
+{
+  "Texture": "LooseSprites/Cursors",
+  "Sprites": {
+    "Balloon": {
+      "SourceRect": "624, 1387, 11, 19"
+    },
+    "BigRedX": {
+      "SourceRect": "269, 471, 14, 15"
+    },
+    "HeartEmpty": {
+      "SourceRect": "218, 428, 7, 6"
+    },
+    "HeartFull": {
+      "SourceRect": "211, 428, 7, 6"
+    },
+    "MagnifyingGlass": {
+      "SourceRect": "208, 320, 16, 16"
+    },
+    "PortraitFrame": {
+      "SourceRect": "603, 414, 74, 74",
+      "FixedEdges": "5",
+      "Scale": 2
+    },
+    "QualityStarGold": {
+      "SourceRect": "346, 400, 8, 8"
+    },
+    "QualityStarIridium": {
+      "SourceRect": "346, 392, 8, 8"
+    },
+    "QualityStarSilver": {
+      "SourceRect": "338, 400, 8, 8"
+    },
+    "QuestButton": {
+      "SourceRect": "383, 495, 11, 12"
+    },
+    "QuestIndicator": {
+      "SourceRect": "402, 496, 7, 15"
+    }
+  }
+}

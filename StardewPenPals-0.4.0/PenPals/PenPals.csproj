@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>PenPals</AssemblyName>
+        <RootNamespace>PenPals</RootNamespace>
+        <Version>0.3.0</Version>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>Latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>Nullable</WarningsAsErrors>
+        <EnableHarmony>true</EnableHarmony>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="assets\rules.json" />
+        <None Remove="i18n\default.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="assets\rules.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="assets\sprites\Cursors.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="assets\sprites\Emojis.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+        <Content Include="assets\views\GiftMail.sml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="CSharpier.MsBuild" Version="0.30.5">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
+        <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.2.0">
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+        <PackageReference Include="PropertyChanged.SourceGenerator" Version="1.1.1">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ProjectExtensions>
+        <VisualStudio>
+            <UserProperties manifest_1json__JsonSchema="https://smapi.io/schemas/manifest.json" />
+        </VisualStudio>
+    </ProjectExtensions>
+
+    <ItemGroup>
+        <Using Include="StardewValley" />
+        <Using Include="StardewModdingAPI" />
+        <Using Alias="Object" Include="System.Object" />
+        <Using Alias="SObject" Include="StardewValley.Object" />
+        <Using Alias="Color" Include="Microsoft.Xna.Framework.Color" />
+        <Using Alias="Rectangle" Include="Microsoft.Xna.Framework.Rectangle" />
+        <Using Alias="Vector2" Include="Microsoft.Xna.Framework.Vector2" />
+    </ItemGroup>
+</Project>

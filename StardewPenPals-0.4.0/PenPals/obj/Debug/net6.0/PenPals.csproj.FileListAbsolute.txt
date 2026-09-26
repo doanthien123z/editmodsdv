@@ -1,0 +1,12 @@
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.csproj.AssemblyReference.cache
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.AssemblyInfoInputs.cache
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.AssemblyInfo.cs
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.csproj.CoreCompileInputs.cache
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\assets\rules.json
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\assets\sprites\Cursors.json
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\assets\sprites\Emojis.json
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\assets\views\GiftMail.sml
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\PenPals.deps.json
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\bin\Debug\net6.0\PenPals.dll
+C:\Users\buitu\Downloads\AAA\StardewPenPals-0.4.0\PenPals\obj\Debug\net6.0\PenPals.dll
